@@ -1,0 +1,47 @@
+Algoritmo "semnome"
+// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 31/08/2023
+Var
+// Seção de Declarações das variáveis 
+
+nome : caracter
+sexo : caracter
+estudoCivil : caracter
+tempoCasado : inteiro
+masculino : caracter
+feminino : caracter
+casado : caracter
+solteiro : caracter
+
+Inicio
+// solicitando os dados do usuário.
+
+escreval("olá, digite seu nome.")
+leia(nome)
+
+limpateia
+
+escreval("olá, digite seu sexo :")
+leia(sexo)
+
+limpatela
+
+escreval("digite seu estado civil:")
+leia(estadoCivil)
+
+limpatela
+// determinando "Se" das variaáveis
+
+se ((sexo = "feminino")e(estadoCivil = "Casado")) entao
+escreval("digite seu tempo de casado:")
+leia(tempoCasado)
+escreval(olá, ", nome, "seu estado civil é:",estadoCivil,"e seu tempo de casada é de:",
+tempocasado)
+senao
+escreval("olá, ", nome, "seu estado civil é:", estadoCivil," e seu tempo de casada é de;",
+tempoCasado)
+
+Fimalgoritmo
