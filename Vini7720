@@ -1,0 +1,55 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 29/08/2023
+Var
+   // Solicitando a quantidade de Kg das maças e morangos.
+   maca: real
+   morango: real
+   calcMaca: real
+   calcMorango: real
+   valorDaCompra: real
+   desconto:real
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   escreval ("escreva a quantidade de maças e morangos compradas Kg: ")
+   leia(maca, morango)
+
+   calcMaca<- 1.80 * maca
+   calcMorango<- 2.50 * morango)
+   se (calcMaca > 8) ou (calcMaca >= 25.00) entao
+   escreval ("Total a ser pago sem promoção pela maçã: ", calcMaca)
+      maca <- (calcMaca * 0.1)
+      desconto <- calcMaca - maca
+      escreval ("Valor a ser pago com 10% de desconto da Maçã: ", desconto)
+     escreval (" ")
+      se (calcMorango > 8) ou (calcMorango >= 25.00) entao
+         escreval ("Total a ser pago sem promoção pelo morango: ", calcMorango)
+
+         morango <- (calcMorango * 0.1)
+         desconto <- calcMorango - morango
+         escreval ("Valor a ser pago com 10% de desconto do Morango: ", desconto)
+
+
+Fimalgoritmo
+fimse
+fimse
+
+escreval ("Total a ser pago sem promoção pela maçã: ", calcMaca)
+escreval ("Total a ser pago sem promoção pelo morango: ", calcMorango)
+escreval("")
+
+// -----------------------------------
+
+se (calcMaca > 5) e (calcMaca <= 8) entao
+   maca <- 1.50 * maca
+   escreval("Valor do morango com promoção de 5kg é: ", maca)
+fimse
+
+se (calcMorango > 5) e (calcMorango <= 8) entao
+   morango <- 2.20 * morango
+   escreval("Valor do morango com promação de 5kg é: ", morango)
+
+fimse
