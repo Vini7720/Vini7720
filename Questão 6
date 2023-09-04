@@ -1,0 +1,22 @@
+Algoritmo "Calculo de média"
+Var
+nota1,nota2,media: Real
+Inicio
+Escreval("coloque a primeira nota: ")
+Leia(nota1) 
+Escreval("coloque a segunda nota: ")
+Leia(nota 2)
+
+media <- (nota1 + nota2) / 2
+Escreval("Média do aluno: ", media)
+
+Se (media) >= 6.0) Entao
+Escreval("parabéns! Aluno aprovado.")
+Senao
+  Se (media >= 4.0) Entao
+     Escreval("Aluno na recuperação. ")
+  Senao
+     Escreval("Aluno reprovado.")
+  Fimse
+Fimse
+Filmalgoritmo
