@@ -1,0 +1,42 @@
+  descricao: caracter
+  quantidade, precoUnitario, total, desconto, totalApagar: Real
+Inicio
+  // seção de Comandos, procedimento, funções, operadores, etc...
+  // leia a descrição do produto
+escreva ("coloque uma descrição do produto: ")
+leia (descrição)
+
+limpatela
+
+// Leia a quantidade adquirida
+escreva("coloque uma quantidade adquirida:")
+leia(quantidade)
+
+// Leia o preço unitário
+escreva("coloque um preço unitário:")
+leia(precoUnitario)
+
+// Calcule o total
+total <- quantidade * precoUnitario
+
+//Calcule o desconto com base na quantidade adquirida 
+se quantidade <=5 entao
+desconto <- total * 0.02
+se quantidade <= 10 entao
+desconto <- total * 0.03
+senao
+desconto <- total * 0.05
+fimse
+fimse
+// Calcule o total a pagar 
+totalApagar <- total - desconto
+
+// Exiba os resultados
+escreval("Descrição do produto:", descriçao)
+escreval("Quantidade adquirida:", quantidade)
+escreval("preço unitário: R$ , precoUnitario)
+escreval("Total: R$", total)
+escreval("Desconto: R$, desconto)
+escreval("Total a pagar: R$", totalApagar)
+
+Fimalgoritmo
