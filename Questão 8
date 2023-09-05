@@ -1,0 +1,35 @@
+Var
+// Seção de Declarações das variáveis 
+cores: caracter
+valorfinal: real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+  escreval ("seja bem vindo!")
+  escreval ("----------------")
+  escreval ("Qual a cor de seu CD?")
+  escreval ("Cores disponíveis:")
+  escreval ("verde / Azul / Amarelo / Vermelho")
+  leia (cores)
+
+  se (cores = "verde") ou (cores = "verde") entao
+    valorfinal <- 10.00
+  fimse
+  
+  se (cores = "Azul") ou (cores = "Azul") entao
+    valorfinal <- 20.00
+  fimse
+  
+  se (cores = "Amarelo") ou (cores = "Amarelo") entao
+    valorfinal <- 30.00
+    
+  se (cores = "Vermelho") ou (cores = "Vermelho") entao
+    valorfinal <- 40.00
+  fimse
+  
+  escreval ("o valor a ser pago é de R$: ", valorfinal)
+  
+  
+
+Fimalgoritmo
